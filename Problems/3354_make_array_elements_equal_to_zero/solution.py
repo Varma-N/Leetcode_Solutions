@@ -25,4 +25,5 @@ class Solution:
                     count += 1
                 if simulate(i, 1):
                     count += 1
+                    
         return count
