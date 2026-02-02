@@ -1,70 +1,44 @@
-# 1411. Number of Ways to Paint N × 3 Grid
+# Approach — 961. N-Repeated Element in Size 2N Array
 
-## 🧩 Problem Overview
+## 🔍 Problem Understanding
 
-You are given an `n × 3` grid and 3 different colors.  
-Your task is to count the number of ways to paint the grid such that:
+You are given an array `nums` of size `2N` where:
 
-- No two adjacent cells in the **same row** have the same color
-- No two adjacent cells in the **same column** have the same color
+- Exactly **one element is repeated `N` times**
+- All other elements appear **only once**
 
-Return the number of valid ways modulo **10⁹ + 7**.
-
----
-
-## 💡 Key Insight
-
-Each row can be painted in only **two valid pattern types**:
-
-### 1. Type A (ABA pattern)
-- The first and third cells have the **same color**
-- The middle cell has a **different color**
-- Example: `Red, Blue, Red`
-- Total possibilities per row: **6**
-
-### 2. Type B (ABC pattern)
-- All three cells have **different colors**
-- Example: `Red, Blue, Green`
-- Total possibilities per row: **6**
-
-We use **dynamic programming** to track how many ways we can build the grid row by row using these two pattern types.
+The goal is to find and return the element that is repeated `N` times.
 
 ---
 
-## 🔁 State Transitions
+## 💡 Key Observation
 
-Let:
-- `a` = number of ways where the previous row is **Type A**
-- `b` = number of ways where the previous row is **Type B**
+Since the repeated element appears **half of the array size**, it is guaranteed to appear **at least twice early** in the array.
 
-For each new row:
-
-- A new **Type A** row can follow:
-  - 3 Type A rows
-  - 2 Type B rows  
-`new_a = 3a + 2b`
-
-- A new **Type B** row can follow:
-- 2 Type A rows
-- 2 Type B rows  
-`new_b = 2a + 2b`
-
-All operations are done modulo `10⁹ + 7`.
+This allows us to detect the repeated element **as soon as we encounter it again**.
 
 ---
 
-## 🚀 Algorithm
+## 🧠 Strategy
 
-1. Initialize:
- - `a = 6` (Type A patterns for row 1)
- - `b = 6` (Type B patterns for row 1)
-2. Iterate from row 2 to row `n`
-3. Update `a` and `b` using the transition formulas
-4. Return `a + b`
+We iterate through the array and keep track of elements we have already seen.
+
+- If an element has been seen before → it must be the `N`-repeated element
+- Return it immediately
+- No need to count frequencies explicitly
 
 ---
 
-## 🧠 Time & Space Complexity
+## 🚀 Algorithm Steps
 
-- **Time Complexity:** `O(n)`
-- **Space Complexity:** `O(1)` (constant space)
+1. Initialize an empty hash map (or set) called `seen`
+2. Traverse each element in `nums`
+3. If the element already exists in `seen`, return it
+4. Otherwise, store the element in `seen`
+
+---
+## ⏱ Complexity Analysis
+
+Time Complexity: O(n)
+
+Space Complexity: O(n)
