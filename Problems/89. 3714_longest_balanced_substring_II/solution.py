@@ -35,6 +35,7 @@ class Solution:
             else:
                 diff_map[key] = i
 
+        
         max_two = 0
         pairs = [('a', 'b', 'c'), ('a', 'c', 'b'), ('b', 'c', 'a')]
         for X, Y, Z in pairs:
@@ -55,6 +56,6 @@ class Solution:
                         max_two = length
                 else:
                     sum_map[cur_sum] = i
-
+                    
         return max(max_run, max_two, max_three)
         
