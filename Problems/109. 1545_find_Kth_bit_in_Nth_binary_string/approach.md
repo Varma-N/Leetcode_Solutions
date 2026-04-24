@@ -48,3 +48,8 @@ In each step of the algorithm, we reduce $n$ by 1. Since we perform a constant n
 
 ### Space Complexity: $O(1)$
 The iterative approach uses only a few integer variables (`flip_count`, `mid`, `n`, `k`) to track the state. No additional data structures or recursive call stacks are used, leading to constant space complexity.
+
+## Workflow
+<img width="1024" height="559" alt="image" src="https://github.com/user-attachments/assets/846a0fca-f8d1-4f43-bb6f-bb46972797e1" />
+
+
