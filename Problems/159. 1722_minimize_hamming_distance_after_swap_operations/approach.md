@@ -14,6 +14,3 @@
     * The time complexity is determined by the number of nodes in the Union-Find tree, which grows linearly with the input array size.  The merging and finding operations have a time complexity of $O(\log N)$. 
 * **Space Complexity:** $O(N)$
     * The space complexity is dominated by the use of the Union-Find data structure for grouping indices and storing frequencies.  
-
-
-=========================================
