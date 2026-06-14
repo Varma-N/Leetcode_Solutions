@@ -42,7 +42,3 @@ class Solution:
                     source_counts[val] -= 1
         
         return n - total_matches
-        
-
-
-        
