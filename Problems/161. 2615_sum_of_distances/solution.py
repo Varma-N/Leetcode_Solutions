@@ -37,4 +37,3 @@ class Solution:
                 prefix_sum += curr_idx
                 
         return res
-        
