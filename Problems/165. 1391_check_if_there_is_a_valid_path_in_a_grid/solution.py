@@ -27,6 +27,5 @@ class Solution:
                         if ndr == -dr and ndc == -dc:
                             visited.add((nr, nc))
                             queue.append((nr, nc))
-                            break
-                            
+                            break   
         return False
