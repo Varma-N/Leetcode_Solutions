@@ -1,4 +1,3 @@
-```markdown
 # Problem 796: Rotate String
 
 ## Intuition
