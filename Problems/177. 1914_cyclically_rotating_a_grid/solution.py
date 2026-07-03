@@ -2,7 +2,6 @@ class Solution:
     def rotateGrid(self, grid: List[List[int]], k: int) -> List[List[int]]:
         m, n = len(grid), len(grid[0])
         num_layers = min(m, n) // 2
-        
         for layer in range(num_layers):
             top, left = layer, layer
             bottom, right = m - 1 - layer, n - 1 - layer
