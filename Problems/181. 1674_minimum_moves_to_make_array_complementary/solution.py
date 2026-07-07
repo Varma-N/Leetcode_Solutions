@@ -18,4 +18,3 @@ class Solution:
                 min_moves = curr_moves
                 
         return min_moves
-        
