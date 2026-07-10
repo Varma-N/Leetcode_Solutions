@@ -11,5 +11,4 @@ class Solution:
             else:
                 right -= 1
 
-        return nums[left]
-        
+        return nums[left]   
