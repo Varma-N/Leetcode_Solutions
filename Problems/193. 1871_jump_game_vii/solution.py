@@ -20,7 +20,3 @@ class Solution:
                 reachable[i] = True
                 
         return reachable[-1]
-
-
-
-        
