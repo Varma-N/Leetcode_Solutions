@@ -1,4 +1,3 @@
-```markdown
 # Problem 1871: Jump Game VII
 
 ## Intuition
