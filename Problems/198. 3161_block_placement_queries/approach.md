@@ -1,4 +1,3 @@
-```markdown
 # Problem 3161: Block Placement Queries
 
 ## Intuition
