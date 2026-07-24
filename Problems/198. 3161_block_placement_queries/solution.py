@@ -77,6 +77,4 @@ class Solution:
                     max_block = max(res.max_gap, res.first_obs, x - res.last_obs)
                 results.append(max_block >= sz)
                 
-        return results   
-
-        
+        return results
