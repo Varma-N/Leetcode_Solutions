@@ -1,4 +1,3 @@
-```markdown
 # Problem 2196: Create Binary Tree From Descriptions
 
 ## Intuition
