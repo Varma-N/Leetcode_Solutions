@@ -6,5 +6,3 @@ class Solution:
             elif num == pivot: equal.append(num)
             else: greater.append(num)
         return less+equal+greater
-        
-        
