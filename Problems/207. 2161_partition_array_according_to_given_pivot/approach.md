@@ -1,4 +1,3 @@
-```markdown
 # Problem 2161: Partition Array According to Given Pivot
 
 ## Intuition
