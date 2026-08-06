@@ -5,7 +5,6 @@ class Solution:
         for u, v in edges:
             adj[u].append(v)
             adj[v].append(u)
-            
         LOG = 18
         up = [[0] * LOG for _ in range(n + 1)]
         depth = [0] * (n + 1)
