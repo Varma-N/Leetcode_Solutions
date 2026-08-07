@@ -1,4 +1,3 @@
-```markdown
 # Problem 3838: Weighted Word Mapping
 
 ## Intuition
