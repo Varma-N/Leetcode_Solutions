@@ -11,6 +11,3 @@ class Solution:
             word_weight %= 26
             res.append(chr(122-word_weight))
         return ''.join(res)
-
-
-        
