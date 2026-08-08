@@ -24,4 +24,3 @@ class Solution:
             prev = prev.next
             
         return max_sum
-        
