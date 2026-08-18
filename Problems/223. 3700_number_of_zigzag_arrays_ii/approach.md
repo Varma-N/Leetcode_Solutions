@@ -42,10 +42,3 @@ A ZigZag array is defined as an array where no adjacent elements are equal, no t
 
  
 **Note:** This solution assumes that the input data is correct and meets the constraints. 
-
-```latex
-\begin{aligned}
-\text{Time Complexity} &= O(n^2) \\
-\text{Space Complexity} &= O(n^2)
-\end{aligned}
-```
