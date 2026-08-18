@@ -18,12 +18,13 @@ class Solution:
             
         p = n - 2
         base = M
+        
         while p > 0:
             if p % 2 == 1:
                 res = matmul(res, base)
             base = matmul(base, base)
             p //= 2
-            
+    
         A2 = list(range(k))
         total = 0
         for i in range(k):
