@@ -13,7 +13,6 @@ class Solution:
         
         while q:
             r, c = q.popleft()
-            
             for dr, dc in directions:
                 nr, nc = r + dr, c + dc
                 if 0 <= nr < m and 0 <= nc < n:
