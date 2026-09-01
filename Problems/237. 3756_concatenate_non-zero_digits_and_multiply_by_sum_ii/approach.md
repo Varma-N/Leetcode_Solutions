@@ -1,4 +1,3 @@
-```markdown
 # Problem 3756: Concatenate Non-Zero Digits and Multiply by Sum II
 
 ## Intuition
