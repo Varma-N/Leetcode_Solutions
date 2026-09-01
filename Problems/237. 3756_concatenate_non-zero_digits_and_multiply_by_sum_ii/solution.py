@@ -21,9 +21,7 @@ class Solution:
                 count[i] = count[i-1]
                 sum_d[i] = sum_d[i-1]
                 val[i] = val[i-1]
-                
         ans = []
-        
         for l, r in queries:
             L = l + 1
             R = r + 1
