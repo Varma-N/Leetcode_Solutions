@@ -1,4 +1,3 @@
-```markdown
 # Problem 3532: Path Existence Queries in a Graph I
 
 ## Intuition
