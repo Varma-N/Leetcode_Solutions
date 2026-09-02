@@ -9,4 +9,3 @@ class Solution:
             components[i] = curr_comp
             
         return [components[u] == components[v] for u, v in queries]
-        
