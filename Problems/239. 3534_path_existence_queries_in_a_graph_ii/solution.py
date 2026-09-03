@@ -45,6 +45,5 @@ class Solution:
             if jump[curr][0] < target:
                 ans.append(-1)
             else:
-                ans.append(steps + 1)
-                
+                ans.append(steps + 1) 
         return ans
