@@ -20,6 +20,5 @@ class Solution:
                         ng2 = math.gcd(g2, x) if g2 else x
                         new_dp[g1][ng2] = (new_dp[g1][ng2] + v) % MOD
             dp = new_dp
-            
         ans = sum(dp[g][g] for g in range(1, m + 1)) % MOD
         return ans
