@@ -15,5 +15,3 @@ class Solution:
         #         even_sum += i
 
         # return gcd(odd_sum, even_sum)
-                
-
