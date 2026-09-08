@@ -1,4 +1,3 @@
-```markdown
 # Problem 3658: GCD of Odd and Even Sums
 
 ## Intuition
