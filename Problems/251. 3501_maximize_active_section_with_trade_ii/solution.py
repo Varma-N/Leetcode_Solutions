@@ -82,7 +82,6 @@ class Solution:
 
         total_ones = s.count('1')
         ans = []
-
         start_idx_of_block = [0] * num_blocks
         curr_idx = 0
         for idx in range(num_blocks):
