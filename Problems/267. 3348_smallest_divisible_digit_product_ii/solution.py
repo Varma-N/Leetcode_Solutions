@@ -1,5 +1,5 @@
 import sys
-from math import gcd
+from math import gcd 
 from functools import lru_cache
 
 sys.set_int_max_str_digits(400000)
