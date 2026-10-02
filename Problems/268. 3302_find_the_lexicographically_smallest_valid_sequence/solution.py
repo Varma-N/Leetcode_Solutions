@@ -41,4 +41,4 @@ class Solution:
                 # If the while loop exhausted `i` without breaking, we cannot complete the sequence
                 return []
                 
-        return seq if len(seq) == n else []
+        return seq if len(seq) == n else [] 
