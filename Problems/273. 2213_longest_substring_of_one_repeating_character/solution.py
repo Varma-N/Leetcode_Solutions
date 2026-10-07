@@ -68,5 +68,5 @@ class Solution:
                         ml[idx] = cand
                 idx //= 2
             ans.append(ml[1])
-            
+             
         return ans
