@@ -10,5 +10,3 @@ class Solution:
             if num != 0:
                 return n - 1
         return 0
-
-
