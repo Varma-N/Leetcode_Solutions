@@ -6,4 +6,4 @@ class Solution:
             for j in sub_array_set:
                 res[j] = res.get(j, 0) + 1
         target_value = 1
-        return (max((k for k, v in res.items() if v == target_value), default = -1))
+        return (max((k for k, v in res.items() if v == target_value), default = -1)) 
