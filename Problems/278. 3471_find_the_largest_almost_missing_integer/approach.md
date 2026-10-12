@@ -1,4 +1,3 @@
-```markdown
 # Problem 3471: Find the Largest Almost Missing Integer
 
 ## Intuition
