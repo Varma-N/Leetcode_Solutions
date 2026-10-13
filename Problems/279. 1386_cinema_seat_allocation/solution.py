@@ -23,4 +23,4 @@ class Solution:
             elif (mask & 60) == 0 or (mask & 960) == 0 or (mask & 240) == 0:
                 max_groups += 1
                 
-        return max_groups
+        return max_groups 
