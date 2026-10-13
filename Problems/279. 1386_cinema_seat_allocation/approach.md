@@ -1,4 +1,3 @@
-```markdown
 # Problem 1386: Cinema Seat Allocation
 
 ## Intuition
