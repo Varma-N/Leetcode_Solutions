@@ -1,4 +1,3 @@
-```markdown
 # Problem 3568: Minimum Moves to Clean the Classroom
 
 ## Intuition
