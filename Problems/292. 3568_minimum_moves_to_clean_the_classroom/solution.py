@@ -47,5 +47,5 @@ class Solution:
                     if next_energy >= 0 and next_energy > visited.get((nr, nc, next_mask), -1):
                         visited[(nr, nc, next_mask)] = next_energy
                         queue.append((nr, nc, next_energy, next_mask, moves + 1))
-                        
+                         
         return -1
