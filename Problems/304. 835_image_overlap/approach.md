@@ -1,4 +1,3 @@
-```markdown
 # Problem 835: Image Overlap
 
 ## Intuition
