@@ -9,5 +9,5 @@ class Solution:
         for r1, c1 in A:
             for r2, c2 in B:
                 counts[(r2 - r1, c2 - c1)] += 1
-                
+               
         return max(counts.values()) if counts else 0
