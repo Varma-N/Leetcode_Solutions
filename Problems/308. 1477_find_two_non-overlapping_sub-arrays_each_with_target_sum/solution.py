@@ -24,5 +24,5 @@ class Solution:
                 best_so_far = min(best_so_far, curr_len)
                 
             min_lengths[right] = best_so_far
-            
+        
         return min_result if min_result != float('inf') else -1
