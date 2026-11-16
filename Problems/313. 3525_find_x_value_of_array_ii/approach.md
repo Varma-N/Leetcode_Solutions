@@ -1,4 +1,3 @@
-```markdown
 # Problem 3525: Find X Value of Array II
 
 ## Intuition
