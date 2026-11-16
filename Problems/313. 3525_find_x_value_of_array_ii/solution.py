@@ -64,5 +64,5 @@ class Solution:
             update(1, 0, n - 1, idx, val)
             res = query(1, 0, n - 1, start, n - 1)
             ans.append(res.pref[x])
-            
+             
         return ans
