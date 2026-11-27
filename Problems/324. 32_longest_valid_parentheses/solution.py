@@ -12,5 +12,5 @@ class Solution:
                 else:
                     current_length = i - stack[-1]
                     max_length = max(max_length, current_length) 
-        
+    
         return max_length
