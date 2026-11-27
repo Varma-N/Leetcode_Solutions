@@ -1,4 +1,3 @@
-```markdown
 # Problem 32: Longest Valid Parentheses
 
 ## Intuition
